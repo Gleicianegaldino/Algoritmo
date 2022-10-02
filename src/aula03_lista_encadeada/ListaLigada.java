@@ -33,7 +33,7 @@ public class ListaLigada {
 
 	public void adicionar(String novoValor) {
 		
-		//burfer
+		//buffer
 		No novoNo = new No(novoValor);
 		
 		if(this.primeiro == null && ultimo == null) {
